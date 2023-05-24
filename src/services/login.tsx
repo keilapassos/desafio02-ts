@@ -1,3 +1,4 @@
 export const login = (): void => {
-  alert("Bem vinda!");
+  const name = prompt("Digite o seu nome: ");
+  alert(`Seja bem vindo(a), ${name}!`);
 };
